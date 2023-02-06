@@ -1,11 +1,11 @@
 -- Looking at number of people got vaccined worldwide
 
 SELECT 
-			cd.continent,
-			cd.location, 
-			cd.date, 
-			cd. population,
-			cv.new_vaccinations
+	cd.continent,
+	cd.location, 
+	cd.date, 
+	cd.population,
+	cv.new_vaccinations
                 
 FROM covid_death cd
 JOIN covid_vaccination cv
